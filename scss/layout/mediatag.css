@@ -1,0 +1,46 @@
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 4.5px;
+  }
+  .row {
+    padding: 5rem;
+  }
+  .smily {
+    font-size: 4rem;
+  }
+  .section-past {
+    padding-bottom: 2rem;
+    padding-top: 8rem;
+  }
+  .section-about {
+    margin-top: -16vh;
+  }
+  .heading-primary--main .x {
+    display: none;
+    position: absolute;
+    left: 13rem;
+    top: 2rem;
+  }
+  .heading-primary--main {
+    white-space: nowrap;
+    color: red;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 6rem;
+    font-weight: 900;
+    letter-spacing: .5rem;
+    -webkit-animation: moveInLeft 1s ease-out;
+            animation: moveInLeft 1s ease-out;
+    -webkit-transition: all 0s;
+    transition: all 0s;
+  }
+  #form--big {
+    display: none;
+  }
+  .hidex {
+    display: inline;
+    text-transform: lowercase;
+  }
+}
+/*# sourceMappingURL=mediatag.css.map */

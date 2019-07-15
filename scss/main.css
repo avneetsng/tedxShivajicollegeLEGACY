@@ -126,6 +126,10 @@ body {
     transform: translate(-1rem) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
 
+.hidex {
+  display: none;
+  text-transform: lowercase; }
+
 .u-center-text {
   text-align: center; }
 
@@ -275,7 +279,6 @@ body {
       font-weight: 900;
       color: black; }
   .features-box .smily {
-    font-size: 6rem;
     display: inline-block;
     background-image: linear-gradient(to right, black, #0F4F7A);
     background-clip: none;
@@ -529,3 +532,35 @@ canvas {
   background-color: #eeeeee;
   padding-bottom: 30rem;
   padding-top: 17rem; }
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 4.5px; }
+  .row {
+    padding: 5rem; }
+  .smily {
+    font-size: 4rem; }
+  .section-past {
+    padding-bottom: 2rem;
+    padding-top: 8rem; }
+  .section-about {
+    margin-top: -16vh; }
+  .heading-primary--main .x {
+    display: none;
+    position: absolute;
+    left: 13rem;
+    top: 2rem; }
+  .heading-primary--main {
+    white-space: nowrap;
+    color: red;
+    display: flex;
+    font-size: 6rem;
+    font-weight: 900;
+    letter-spacing: .5rem;
+    animation: moveInLeft 1s ease-out;
+    transition: all 0s; }
+  #form--big {
+    display: none; }
+  .hidex {
+    display: inline;
+    text-transform: lowercase; } }

@@ -1,3 +1,4 @@
+
 @import "abstracts/functions";
 @import "abstracts/mixins";
 @import "abstracts/variables";
@@ -18,7 +19,10 @@
 @import "layout/header.scss";
 @import "layout/grid";
 
+
 @import "pages/home";
+
+@import "layout/mediatag.scss";
 
 
 
