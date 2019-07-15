@@ -15,13 +15,24 @@
     }   
 
     .section-past{
-        padding-bottom: 2rem;
+        padding-bottom: 50rem;
         padding-top: 8rem;
+        font-size: 8px;
+        
     }
 
     .section-about{
         margin-top:-10vh;
+        // padding-bottom: 10rem;
+        // m: 5vh;  
         // background-color:black;
+      
+
+       &__right--comp {
+           display: block;  
+           margin-top: 5vh;
+
+       }
     }
     .heading-primary--main .x {
         display: none;
@@ -47,10 +58,10 @@
     }
     .section-form{
             // position: relative;
-            #form--big{
-                // position: absolute;  
+            .form{
+                // position: absolute;      
                 width: 80vw;
-                margin-left: -137px;
+                margin-left: 0vw;
               
             }
         
@@ -60,7 +71,21 @@
         display: inline;
         text-transform: lowercase;
       }
-//     .contact{
-//         margin-bottom: 
-//     }
-  }
+    .contact{
+        height: 66vh;
+    }
+
+.features-box {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+     font-size: 2.5rem;
+             }
+
+  .row .col-1-of-2 {
+                width: 100%;
+                
+            }
+
+            
+}
