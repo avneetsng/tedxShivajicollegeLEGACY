@@ -1,0 +1,27 @@
+.section-about{
+    background-color: $color-grey-light-1;
+    padding: 25rem 0;
+    margin-top: -25vh;
+
+    &__right{
+        position: relative;
+
+        &--col{
+            position: absolute;
+            top:10rem;
+
+
+        }
+    }
+
+}
+
+.section-past{
+    background-color: #eeeeee  ;
+
+    padding-bottom: 30rem;
+    padding-top: 17rem;
+    // padding-bottom: 10rem;
+    
+
+}
