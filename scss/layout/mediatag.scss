@@ -20,7 +20,7 @@
     }
 
     .section-about{
-        margin-top:-16vh;
+        margin-top:-10vh;
         // background-color:black;
     }
     .heading-primary--main .x {
@@ -30,6 +30,9 @@
         top: 2rem;
         
         
+    }
+    .header{
+        height: 81vh;
     }
 
     .heading-primary--main {
@@ -42,15 +45,22 @@
         animation: moveInLeft 1s ease-out;
         transition: all 0s;
     }
-    #form--big{
-        display: none;
+    .section-form{
+            // position: relative;
+            #form--big{
+                // position: absolute;  
+                width: 80vw;
+                margin-left: -137px;
+              
+            }
+        
     }
-
+   
     .hidex{
         display: inline;
         text-transform: lowercase;
       }
-    .contact{
-        // margin-bottom: 
-    }
+//     .contact{
+//         margin-bottom: 
+//     }
   }

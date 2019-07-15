@@ -13,13 +13,16 @@
     padding-top: 8rem;
   }
   .section-about {
-    margin-top: -16vh;
+    margin-top: -10vh;
   }
   .heading-primary--main .x {
     display: none;
     position: absolute;
     left: 13rem;
     top: 2rem;
+  }
+  .header {
+    height: 81vh;
   }
   .heading-primary--main {
     white-space: nowrap;
@@ -36,7 +39,7 @@
     transition: all 0s;
   }
   #form--big {
-    display: none;
+    width: 80vw;
   }
   .hidex {
     display: inline;
