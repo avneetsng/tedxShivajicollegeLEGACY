@@ -8,7 +8,9 @@ canvas {
     height: 100%;
     background-color: black;
     // background-image: url(/img/space.jpg);
-    background-image: linear-gradient(to right bottom,rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)),url(https://images.wallpaperscraft.com/image/stars_milky_way_space_116893_1920x1080.jpg);
+    background-image: linear-gradient(to right bottom,rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)),
+    // url(https://images.wallpaperscraft.com/image/stars_milky_way_space_116893_1920x1080.jpg);
+    url(/img/earth2.jpg);
     // background-image: url("");
     // background-image: url(./../../img/space.jpg);
     background-repeat: no-repeat;
