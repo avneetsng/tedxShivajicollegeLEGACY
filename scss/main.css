@@ -376,7 +376,7 @@ canvas {
   width: 100%;
   height: 100%;
   background-color: black;
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(15, 79, 122, 0.8)), url("/img/themetype.jpg");
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(15, 79, 122, 0.8)), url("https://serving.photos.photobox.com/16973993994e0600df6270ae96f5b89221ec1b49f3dec05ba22b13b218c5d3af031e3958.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%; }
@@ -490,6 +490,16 @@ canvas {
   background-color: #eeeeee;
   padding-bottom: 30rem;
   padding-top: 17rem; }
+
+@media only screen and (max-width: 1413px) {
+  .heading-primary--main .x {
+    display: none;
+    position: absolute;
+    left: 13rem;
+    top: 2rem; }
+  .hidex {
+    display: inline;
+    text-transform: lowercase; } }
 
 @media only screen and (max-width: 600px) {
   html {
