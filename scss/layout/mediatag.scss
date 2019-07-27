@@ -103,10 +103,17 @@
                 
             }
 
+            .pepmain{
+                margin-top: 35rem;
+           
+                .col-1-of-3 {
+                   width: calc((100% - 2 * #{$gutter-horizontal}));
+                   margin-left: $gutter-horizontal;
+                   margin-bottom: $gutter-horizontal*2;
+               }
+           
+           }
+
             
 }
 
-.pepmain{
-     margin-top: 35rem;
-
-}
