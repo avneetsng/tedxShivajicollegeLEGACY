@@ -44,8 +44,7 @@ body {
   line-height: 1.7;
   color: #777;
   font-size: 1.6rem;
-  box-sizing: border-box;
-  padding: 3rem; }
+  box-sizing: border-box; }
 
 body {
   font-family: 'Lato';
@@ -376,7 +375,6 @@ canvas {
   width: 100%;
   height: 100%;
   background-color: black;
-  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.8), rgba(15, 79, 122, 0.8)), url("https://serving.photos.photobox.com/16973993994e0600df6270ae96f5b89221ec1b49f3dec05ba22b13b218c5d3af031e3958.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%; }
@@ -549,6 +547,8 @@ canvas {
     width: 100%; }
   .pepmain {
     margin-top: 35rem; }
+    .pepmain img {
+      height: 10%; }
     .pepmain .col-1-of-3 {
       width: calc((100% - 2 * 6rem));
       margin-left: 6rem;

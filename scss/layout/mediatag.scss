@@ -104,12 +104,18 @@
             }
 
             .pepmain{
+                img{
+                    // width: 80%;
+        
+                    height: 10%;
+                }
                 margin-top: 35rem;
            
                 .col-1-of-3 {
                    width: calc((100% - 2 * #{$gutter-horizontal}));
                    margin-left: $gutter-horizontal;
                    margin-bottom: $gutter-horizontal*2;
+
                }
            
            }
