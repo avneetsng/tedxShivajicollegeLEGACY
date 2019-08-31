@@ -11,9 +11,10 @@ canvas {
     // linear-gradient(to right bottom,rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)),
     // url('https://serving.photos.photobox.com/16973993994e0600df6270ae96f5b89221ec1b49f3dec05ba22b13b218c5d3af031e3958.jpg');
     // // background-image: url("");
-    // // background-image: url(./../../img/space.jpg);
+    background-image: url('https://i.ibb.co/zHLDBDg/bb.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100%;
     background-position: 50% 50%;
   } /* ---- stats.js ---- */
   .count-particles {

@@ -15,10 +15,24 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+
+    
     html{
         font-size: 4.5px;
     }
+   
+    #particles-js {
+        background-size: auto;
+    }
 
+    .pep img{
+    
+        // height: auto;
+        // width: 100rem;
+    }
+
+    
    
 
     .row{
